@@ -60,6 +60,10 @@
                 "printer",
                 "receipt-printer"
             ],
+            "support": {
+                "issues": "https://github.com/mike42/escpos-php/issues",
+                "source": "https://github.com/mike42/escpos-php/tree/v3.0"
+            },
             "time": "2019-10-13T06:27:43+00:00"
         },
         {
@@ -102,6 +106,10 @@
             ],
             "description": "The pure PHP graphics library",
             "homepage": "https://github.com/mike42/gfx-php",
+            "support": {
+                "issues": "https://github.com/mike42/gfx-php/issues",
+                "source": "https://github.com/mike42/gfx-php/tree/v0.6"
+            },
             "time": "2019-10-05T02:44:33+00:00"
         }
     ],
@@ -113,5 +121,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
