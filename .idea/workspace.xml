@@ -11,17 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="570fd6da-68e5-454e-afb2-84b67873c853" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/character-encoding-test-strings.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/document.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/document.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/document.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/document.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/escpos-php-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/escpos-php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/rawbtlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tulips.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tux.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -108,7 +97,7 @@
       <updated>1634363237529</updated>
       <workItem from="1634363238616" duration="1370000" />
       <workItem from="1634364618646" duration="10000" />
-      <workItem from="1634340992419" duration="7277000" />
+      <workItem from="1634340992419" duration="7694000" />
     </task>
     <servers />
   </component>

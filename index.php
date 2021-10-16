@@ -21,6 +21,20 @@ if (isset($_POST['queue_no'])) {
     exit;
 }
 
+$headers = array();
+foreach ($_SERVER as $key => $value) {
+    if (strpos($key, 'HTTP_') === 0) {
+        $headers[str_replace(' ', '', ucwords(str_replace('_', ' ', strtolower(substr($key, 5)))))] = $value;
+    }
+}
+
+$config = json_decode(file_get_contents('config.json'), true);
+
+if ($config['key'] != $headers['XNtKey']) {
+    echo json_encode(['Gagal Print']);
+    exit;
+}
+
 list($type, $logo) = explode(';', $logo);
 list(, $logo) = explode(',', $logo);
 $data = base64_decode($logo);
