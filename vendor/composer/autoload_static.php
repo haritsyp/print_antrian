@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit2d5dfd026e7cc11df116e450aaf8fb6a
 {
     public static $prefixLengthsPsr4 = array (
+        '\\' => 
+        array (
+            '\\' => 1,
+        ),
         'M' => 
         array (
             'Mike42\\' => 7,
@@ -14,6 +18,10 @@ class ComposerStaticInit2d5dfd026e7cc11df116e450aaf8fb6a
     );
 
     public static $prefixDirsPsr4 = array (
+        '\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
+        ),
         'Mike42\\' => 
         array (
             0 => __DIR__ . '/..' . '/mike42/escpos-php/src/Mike42',
